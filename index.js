@@ -48,11 +48,10 @@ const checkInputs = () => {
         setSuccesFor(password2);
     }
 
-    if (usernameValue === '') {
-        setErrorFor(username, 'Kullanıcı Adı Boş')
+    if (checkbox === '') {
+        setErrorFor(checkbox, 'Checkbox boş')
     } else {
-        setSuccesFor(username);
-
+        setSuccesFor(checkbox);
     }
 
 }
